@@ -271,6 +271,6 @@ app.get('/api/users/:username', (req, res) => {
 });
 
 const PORT = 5000;
-app.listen(PORT, localhost, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server đang chạy tại port ${PORT}`);
 });
